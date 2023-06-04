@@ -1,0 +1,28 @@
+.reviewcard {
+    margin: 0.5vmax;
+    background-color: white;
+    padding-bottom: 2vmax;
+    cursor: pointer;
+    transition: all 0.5s;
+    // border-radius: 8px;
+
+    &:hover {
+        transform: translateY(-0.4vmax);
+        box-shadow: 0px 6px 15px rgba(53, 53, 53, 0.363);
+    }
+
+    h5 {
+        margin: 2vmax 0 0.5vmax 2vmax;
+        color: rbg(94, 94, 94);
+    }
+    span {
+        margin: 0 2vmax;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1vmax;
+        color: rbg(94, 94, 94);
+    }
+    b {
+        color: orangered;
+        font-size: 1vmax;
+    }
+}
